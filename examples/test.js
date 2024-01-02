@@ -17,18 +17,18 @@ var dem = new Democracy({
   peers: ['0.0.0.0:12345', '0.0.0.0:12346', '0.0.0.0:12347']
 });
 
-dem.on('added', function(data) {
+dem.on('added', function (data) {
   console.log('Added: ', data);
 });
 
-dem.on('removed', function(data) {
+dem.on('removed', function (data) {
   console.log('Removed: ', data);
 });
 
-dem.on('elected', function(data) {
+dem.on('elected', function (data) {
   console.log('You are elected leader!');
 });
 
-dem.on('leader', function(data) {
+dem.on('leader', function (data) {
   console.log('New Leader: ', data);
 });

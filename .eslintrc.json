@@ -5,7 +5,10 @@
   },
   "extends": "airbnb-base",
   "rules": {
-    "object-curly-spacing": ["warn", "never"],
+    "object-curly-spacing": [
+      "warn",
+      "always"
+    ],
     "no-underscore-dangle": 0
   }
 }
